@@ -6,4 +6,4 @@ Repoet inneholder gruppens applikasjon og dokumentasjon av utvikling, testing og
 
 ## Medlemmer
 
-- Andreas Iden-Gravningsmyhr
+- Andreas I-G
