@@ -1,5 +1,9 @@
 # Implementering og arkitekturbeslutning
 
+## Oppdatert sluttstatus
+
+Sluttkontrollen 3. november fullførte alle fire roller på Vercel og prøvde lærerflyt lokalt, samt skjermbredder og tastatur. 19 automatiske tester består. Tidligere åpne punkter under er historiske og erstattes av [leveransestatus](leveransestatus.md). Studenten har valgt gratis, regelbasert oppsummering; ekte KI-refleksjon utsettes. Feilretting i denne runden sikrer lukking av databaseforbindelsen også ved oppstartsfeil og gjør graflegenden tydeligere.
+
 3. november 2026. Denne beslutningen erstatter det foreløpige stack-forslaget i `planning/architecture.md`. Planleggingshistorikken beholdes.
 
 ## Endring og begrunnelse

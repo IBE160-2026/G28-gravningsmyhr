@@ -6,6 +6,10 @@
 **Versjon:** 0.2 – revidert planleggingsutkast  
 **Status:** Kravgrunnlag. Første implementasjon og faktiske kontroller er beskrevet i [implementasjon](../implementation.md) og [testresultater](../testing.md). Kravforslag er ikke automatisk oppfylt selv om de står her.
 
+## Beslutning etter implementering 3. november 2026
+
+Studenten har valgt gratis, regelbasert oppsummering foreløpig. F10 om ekte KI-generert refleksjon er utsatt, mens F11 er aktiv løsning. Dette er et bevisst scope-avvik, ikke en påstand om at ekte KI er levert. Se [leveransestatus](../leveransestatus.md) og [testresultater](../testing.md) for faktisk oppfyllelse og åpne emneavklaringer.
+
 ## 1. Formål og grunnlag
 
 Beer Game skal la en student øve på forsyningskjedestyring alene. Studenten bestiller varer i én av fire roller og ser hvordan beslutningene påvirker lager, restordre, leveranser og kostnader gjennom flere perioder. Etter spillet skal grafer og en oppsummering hjelpe studenten å undersøke bullwhip-effekten.

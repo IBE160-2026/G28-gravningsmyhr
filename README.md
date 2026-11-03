@@ -4,6 +4,12 @@ Norsk læringssimulering for IBE160 26H Programmering med KI. Spill én av fire 
 
 ## Status
 
+Sluttkontroll 3. november: Alle fire roller er gjennomført i 20 perioder på den offentlige siden. Lokal lærerflyt og tilgangskontroll er prøvd. 19 automatiske tester består. Studenten har valgt gratis, regelbasert oppsummering foreløpig; ekte KI-refleksjon er utsatt.
+
+- [Leveransestatus og resterende studentoppgaver](docs/leveransestatus.md)
+- [KI-assistert refleksjonsrapport til gjennomlesing](docs/refleksjonsrapport.md)
+- [Utvidet regnegrunnlag](docs/reference-extended.md)
+
 Publisert på [g28-gravningsmyhr.vercel.app](https://g28-gravningsmyhr.vercel.app/). Lokal SQLite-versjon er testet. Den 3. november 2026 ble registrering, opprettelse av spill, lagring av første periode, omlasting og gjenopptak kontrollert på Vercel med PostgreSQL. Fullt spill er tidligere testet lokalt. Valgfri Claude-integrasjon er ikke prøvd med ekte nøkkel. Dette er et undervisningsprosjekt, ikke et ferdig driftet system for sensitive studentdata.
 
 ## Lokal oppstart

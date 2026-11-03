@@ -5,7 +5,7 @@ import tempfile
 from pathlib import Path
 import secrets
 import unittest
-from unittest.mock import patch
+from unittest.mock import patch, Mock
 from game import advance, new_game, prepare, visible
 from api.index import dispatch
 from storage import transaction
@@ -121,6 +121,14 @@ class ServiceTests(unittest.TestCase):
         with patch.dict(os.environ,{'VERCEL':'1','DATABASE_URL':''}):
             with self.assertRaises(RuntimeError):
                 with transaction():pass
+
+    def test_database_closes_when_initialization_fails(self):
+        db=Mock()
+        db.execute.side_effect=RuntimeError('simulated schema failure')
+        with patch.dict(os.environ,{'DATABASE_URL':'','VERCEL':''}),patch('storage.sqlite3.connect',return_value=db):
+            with self.assertRaises(RuntimeError):
+                with transaction():pass
+        db.close.assert_called_once()
 
     def test_model_timeout_fallback(self):
         with patch.dict(os.environ,{'ANTHROPIC_API_KEY':'fake','ANTHROPIC_MODEL':'test'}),patch('reflection.urlopen',side_effect=TimeoutError):

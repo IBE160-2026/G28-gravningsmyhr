@@ -1,5 +1,7 @@
 # Product Brief: Beer Game
 
+> Leveransevalg 3. november 2026: Studenten har valgt gratis, regelbasert sluttoppsummering foreløpig. Ekte KI-refleksjon utsettes; en valgfri adapter ligger i koden uten aktiv nøkkel. Dette avviket fra opprinnelig KI-oppsummering er dokumentert i PRD og må vurderes mot endelige emnekrav. Se [leveransestatus](docs/leveransestatus.md).
+
 **Gruppe:** G28-gravningsmyhr  
 **Emne:** IBE160 Programmering med KI
 
