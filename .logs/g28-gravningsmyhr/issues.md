@@ -1,6 +1,9 @@
 # Åpne punkter
 
-- [ ] 2026-11-03 [Planlegging](999-2026-11-03-11-53-00-beergame-planlegging.md) — Kontroller PRD-mal og spillregler mot detaljert emnemateriale.
-- [ ] 2026-11-03 [Planlegging](999-2026-11-03-11-53-00-beergame-planlegging.md) — S01: Valider lokal stack, lås versjoner og dokumenter faktisk oppstart.
-- [ ] 2026-11-03 [Planlegging](999-2026-11-03-11-53-00-beergame-planlegging.md) — S02: Lag og kontroller fullkjedefasit.
-- [ ] 2026-11-03 [Planlegging](999-2026-11-03-11-53-00-beergame-planlegging.md) — S03–S13: Bygg og test appen; avklar modellkostnad og dataoppbevaring før publisering.
+- [ ] 2026-11-03 — Kontroller PRD-mal og spillregler mot detaljert emnemateriale.
+- [x] 2026-11-03 — Lokal oppstart og faktiske kommandoer er implementert og prøvd (løst 2026-11-03).
+- [ ] 2026-11-03 — Femperioders nullbestillingsfasit og separate ledetidsfasiter finnes. Uavhengig fullkjedefasit med varierende bestillinger bør utvides.
+- [ ] 2026-11-03 [Implementasjon](998-2026-11-03-12-02-00-beergame-implementasjon.md) — PostgreSQL-integrasjon og publisert Vercel-flyt må prøves.
+- [ ] 2026-11-03 [Implementasjon](998-2026-11-03-12-02-00-beergame-implementasjon.md) — Ekte KI-kall, modellkostnad og vurdering hvis integrasjonen aktiveres.
+- [ ] 2026-11-03 [Implementasjon](998-2026-11-03-12-02-00-beergame-implementasjon.md) — Lærerflyt i nettleser, tastatur og eksakte breddeprøver.
+- [ ] 2026-11-03 [Implementasjon](998-2026-11-03-12-02-00-beergame-implementasjon.md) — Kontoforvaltning, sletting og dataoppbevaring før ekte studentbruk.
