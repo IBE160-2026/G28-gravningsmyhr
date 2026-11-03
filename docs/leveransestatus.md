@@ -1,5 +1,9 @@
 # Leveransestatus for Beer Game
 
+## Oppdatering etter mottatt refleksjonsmal
+
+Refleksjonsmalen er nå mottatt og lest. Rapporten følger dens åtte hoveddeler og 23 underdeler og har omtrent 3296 ord i del 2–7. Malen oppgir forventet lengde 3000–5000 ord, men ikke innleveringssted eller frist. [Arbeidssteg og sentrale prompter](prosess-og-prompter.md) er lagt til som vedlegg. Den tidligere brief-genereringens originale prompter og en komplett prompttranskripsjon er ikke tilgjengelige; vedlegget markerer dette hullet. Studentens gjennomlesing og endelig oppgaveavklaring gjenstår.
+
 Kontrollert 3. november 2026. Statusen beskriver faktisk arbeid og er ikke en formell godkjenning eller karaktervurdering.
 
 ## Klar og kontrollert
