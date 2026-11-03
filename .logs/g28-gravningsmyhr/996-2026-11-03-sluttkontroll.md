@@ -20,3 +20,7 @@ En lang dokumentkommando ble avvist av automatisk godkjenning. Dokumentendringen
 
 ### Åpne punkter
 Passordrotasjon og Vercel-verdi må studenten håndtere privat. Endelig Canvas-oppgave, frist og emnets spillfasit er ikke tilgjengelige. Refleksjonsutkastet må leses av studenten, og egne brukerprøver mangler. Kontoforvaltning og dataoppbevaring må avklares før bruk med reelle studentdata. Ingen Canvas-innlevering eller faglærergodkjenning er utført.
+
+## Endelig verifikasjon
+
+GitHub Actions-kjøring 41628615306 for loggcommit 70956ca83347a30d0bcef4dce082d0a4da48c648 fullførte med success på Python 3.12. Vercel rapporterte vellykket deployment for samme commit. Ny offentlig innlogging og åpning av lagret detaljistresultat fungerte, og alle 12 linjeeksemplene i den oppdaterte graflegenden var til stede. Testkontoen er logget ut. Lokal sluttpakke har 33 filer uten SQLite-databaser, pyc eller hemmelige .env-filer; alle relative dokumentlenker i docs er kontrollert. Det ligger fire fullførte fiktive testspill i produksjonsdatabasen. Studentens passordrotasjon, egen gjennomlesing og Canvas-avklaring er fortsatt ubekreftet.
