@@ -159,8 +159,12 @@ class handler(BaseHTTPRequestHandler):
             self.reply(403, {'error': str(exc)})
         except (ValueError, TypeError, KeyError):
             self.reply(400, {'error': 'Handlingen kunne ikke utføres. Kontroller inndata eller last spillet på nytt.'})
-        except Exception:
-            self.reply(503, {'error': 'Tjenesten er midlertidig utilgjengelig. Kontroller databaseoppsettet eller prøv igjen.'})
+        except Exception as exc:
+            # Never expose raw exceptions: they can contain connection strings.
+            error_type = type(exc).__name__
+            code = 'DB_DRIVER' if isinstance(exc, ImportError) else 'DB_CONNECTION' if error_type in ('OperationalError', 'InterfaceError') else 'SERVICE_CONFIG'
+            print('Beer Game service failure:', code, error_type, flush=True)
+            self.reply(503, {'error': 'Tjenesten er midlertidig utilgjengelig. Feilkode: ' + code + '. Kontroller databaseoppsettet eller prøv igjen.'})
 
     def log_message(self, *args):
         pass  # No request data or session tokens in logs.
