@@ -10,3 +10,6 @@
 
 - [ ] 2026-11-03 — Studenten må rotere databasepassordet privat og oppdatere Vercel.
 - [ ] 2026-11-03 — Studenten må lese refleksjonsutkastet, prøve appen selv og kontrollere endelig Canvas-oppgave/frister.
+
+- [x] 2026-11-03 — Refleksjonsmal mottatt; rapport tilpasset alle 23 underdeler og forventet ordlengde (løst 2026-11-03).
+- [ ] 2026-11-03 — Suppler opprinnelige promptlogger fra tidligere briefarbeid hvis de finnes, uten hemmeligheter; prosessvedlegget markerer manglende historikk.

@@ -24,3 +24,17 @@ Passordrotasjon og Vercel-verdi må studenten håndtere privat. Endelig Canvas-o
 ## Endelig verifikasjon
 
 GitHub Actions-kjøring 41628615306 for loggcommit 70956ca83347a30d0bcef4dce082d0a4da48c648 fullførte med success på Python 3.12. Vercel rapporterte vellykket deployment for samme commit. Ny offentlig innlogging og åpning av lagret detaljistresultat fungerte, og alle 12 linjeeksemplene i den oppdaterte graflegenden var til stede. Testkontoen er logget ut. Lokal sluttpakke har 33 filer uten SQLite-databaser, pyc eller hemmelige .env-filer; alle relative dokumentlenker i docs er kontrollert. Det ligger fire fullførte fiktive testspill i produksjonsdatabasen. Studentens passordrotasjon, egen gjennomlesing og Canvas-avklaring er fortsatt ubekreftet.
+
+## Revisjon etter mottatt rapportmal 3. november 2026
+
+### Oppgave
+Studenten leverte reflection-report-template (1).md for sammenligning og tilpasning av rapporten.
+
+### Plan
+Les hele malen, tilpass struktur og lengde, dokumenter arbeidssteg og prompter uten hemmeligheter og kontroller deldekningen.
+
+### Resultat
+Rapportrevisjon 19c894cd4be9703d8aa17d7daf9836d4ebad5aab følger åtte hoveddeler og alle 23 nummererte underdeler. Hoveddel 2–7 teller omtrent 3296 ord med underoverskrifter, innenfor malens forventede 3000–5000. Et prosess- og promptvedlegg beskriver 33 dokumenterte hovedsteg, ordrette sentrale brukerprompter og begrensningene i historikkgrunnlaget. Rapporten skiller personlige uttalelser fra agentutførte tester og analytiske forslag. Leveransestatus er oppdatert. Ingen appkode ble endret; validering var struktur, ordtelling, lenker og artefaktkontroll, ikke nye app-tester.
+
+### Åpne punkter
+Malen oppgir ikke innleveringssted eller frist. Endelig oppgave, studentens gjennomlesing og egne prøver, privat passordrotasjon og kontroll av undervisningsregler gjenstår. Første brief-generering og en komplett opprinnelig promptlogg mangler og er ikke konstruert i ettertid.
