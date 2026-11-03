@@ -4,7 +4,7 @@
 **Emne:** IBE160 26H Programmering med KI  
 **Dato:** 3. november 2026  
 **Versjon:** 0.2 – revidert planleggingsutkast  
-**Status:** Kravforslag. Ingen funksjoner er implementert eller testet som del av dette dokumentet.
+**Status:** Kravgrunnlag. Første implementasjon og faktiske kontroller er beskrevet i [implementasjon](../implementation.md) og [testresultater](../testing.md). Kravforslag er ikke automatisk oppfylt selv om de står her.
 
 ## 1. Formål og grunnlag
 

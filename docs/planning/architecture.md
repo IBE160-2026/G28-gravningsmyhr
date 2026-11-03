@@ -1,5 +1,7 @@
 # Arkitekturforslag for Beer Game
 
+> Historisk forslag. Implementert arkitektur og begrunnede avvik står i [arkitekturbeslutningen](../implementation.md).
+
 Dato: 3. november 2026. Status: planleggingsforslag som må valideres i oppstartsoppgaven. Ingen programvare er installert i prosjektet gjennom dette dokumentet.
 
 ## Valg og begrunnelse

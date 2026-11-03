@@ -1,6 +1,6 @@
 # Epics og utviklingsoppgaver for Beer Game
 
-Dato: 3. november 2026. Status: planlagt, ingen oppgaver er implementert.
+Dato: 3. november 2026. Status: opprinnelig arbeidsplan. Første implementasjon finnes nå. Lokal validering og gjenværende eksterne kontroller står i [testresultater](../testing.md) og [implementasjon](../implementation.md). Ingen story regnes automatisk ferdig uten alle sine kontroller.
 Krav-ID-er viser til [PRD](prd.md). Oppgavene tas i rekkefølge med egne faktiske endringer og validering.
 
 | Epic | Story | Krav | Akseptansekriterier og kontroll |
