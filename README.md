@@ -4,7 +4,7 @@ Norsk læringssimulering for IBE160 26H Programmering med KI. Spill én av fire 
 
 ## Status
 
-Første kjørbare versjon. Lokal SQLite-versjon er testet. PostgreSQL-adapter, Vercel-konfigurasjon og valgfri Claude-integrasjon er skrevet, men er ikke verifisert mot brukerens eksterne tjenester. Det finnes foreløpig ingen bekreftet offentlig nettadresse. Dette er et undervisningsprosjekt, ikke et ferdig driftet system for sensitive studentdata.
+Publisert på [g28-gravningsmyhr.vercel.app](https://g28-gravningsmyhr.vercel.app/). Lokal SQLite-versjon er testet. Den 3. november 2026 ble registrering, opprettelse av spill, lagring av første periode, omlasting og gjenopptak kontrollert på Vercel med PostgreSQL. Fullt spill er tidligere testet lokalt. Valgfri Claude-integrasjon er ikke prøvd med ekte nøkkel. Dette er et undervisningsprosjekt, ikke et ferdig driftet system for sensitive studentdata.
 
 ## Lokal oppstart
 
